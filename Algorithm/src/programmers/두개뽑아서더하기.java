@@ -5,11 +5,6 @@ import java.util.Collections;
 import java.util.HashSet;
 
 public class 두개뽑아서더하기 {	
-	
-	public static void main(String[] args) {
-		
-	}
-	
 }
 
 class 두개뽑아서더하기Solution{

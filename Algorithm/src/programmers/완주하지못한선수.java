@@ -4,11 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class 완주하지못한선수 {
-	
-	public static void main(String[] args) {
-		
-	}
-
 }
 
 class 완주하지못한선수Solution {
