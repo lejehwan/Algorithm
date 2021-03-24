@@ -12,7 +12,7 @@ public class 두개뽑아서더하기 {
 	
 }
 
-class Solution{
+class 두개뽑아서더하기Solution{
 	public int[] solution(int[] numbers) {
 		int[] answer;
 		HashSet<Integer> hs = new HashSet<Integer>();
