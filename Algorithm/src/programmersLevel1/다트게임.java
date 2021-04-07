@@ -39,7 +39,7 @@ class 다트게임Solution{
                     result[answer-1] *= -1;
                 }
             }
-        }
+        }    
         int ranswer = 0;
         for(int i : result){
             ranswer += i;
