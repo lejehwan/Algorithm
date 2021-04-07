@@ -7,7 +7,7 @@ import java.util.Collections;
 public class 실패율구하기 {
 
 }
- 
+  
 // 합계 : 92.6/100.0
 // 테케 1,12 실패
 

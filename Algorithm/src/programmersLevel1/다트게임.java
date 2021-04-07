@@ -1,7 +1,7 @@
 package programmersLevel1;
 
 public class 다트게임 {
-
+ 
 }
 
 class 다트게임Solution{
