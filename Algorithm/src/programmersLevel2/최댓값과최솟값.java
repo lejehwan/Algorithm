@@ -16,7 +16,7 @@ public class 최댓값과최솟값 {
 		answer += String.valueOf(min) + " " +String.valueOf(max);
 		System.out.println(answer);
 	}
-
+ 
 }
 
 class 최댓값과최솟값Solution1 {

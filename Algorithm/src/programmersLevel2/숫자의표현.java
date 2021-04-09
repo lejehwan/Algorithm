@@ -3,7 +3,7 @@ package programmersLevel2;
 public class 숫자의표현 {
 
 }
-
+ 
 class 숫자의표현Solution{
 	public int solution(int n) {
 		int answer = 1;
