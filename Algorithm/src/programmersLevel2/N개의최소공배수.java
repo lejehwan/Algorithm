@@ -7,7 +7,7 @@ public class N개의최소공배수 {
         // 아래는 테스트로 출력해 보기 위한 코드입니다.
         System.out.println(c.nlcm(ex));
 	}
-}
+} 
 
 class NLCM{
 	// 최소공배수

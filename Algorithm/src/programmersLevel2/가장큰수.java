@@ -18,7 +18,7 @@ class 가장큰수Solution{
 			str[i] = String.valueOf(numbers[i]);
 		}
 		// 두 수를 앞,뒤로 붙여 큰 수를 리턴하도록 내림차순 정렬
-		Arrays.sort(str, new Comparator<String>() {
+		Arrays.sort(str, new Comparator<String>() { 
 			
 			@Override
 			public int compare(String o1, String o2) {
