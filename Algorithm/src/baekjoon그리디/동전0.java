@@ -20,7 +20,7 @@ public class 동전0 {
 					break;
 				}
 			}
-		}
+		} 
 		System.out.println(answer);
 		sc.close();
 	}
