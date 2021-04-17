@@ -25,12 +25,12 @@ public class 수정렬하기_퀵정렬 {
 	}
 
 	public static void sort(int[] arr, int start, int end) {
-		int part = partition(arr, start, end);
+		int part = partition(arr, start, end); // 피봇에 따른 분할 위치 결정
 		if (start < part - 1) {
-			sort(arr, start, part - 1);
+			sort(arr, start, part - 1); // 피봇 기준 왼쪽 부분집합
 		}
 		if (part < end) {
-			sort(arr, part, end);
+			sort(arr, part, end);// 피봇 기준 오른쪽 부분집합
 		}
 	}
 
@@ -44,6 +44,7 @@ public class 수정렬하기_퀵정렬 {
 			while (arr[end] > pivot) {
 				end--;
 			}
+			// 위치교환
 			if (start <= end) {
 				int temp = arr[start];
 				arr[start] = arr[end];
