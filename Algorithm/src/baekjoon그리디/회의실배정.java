@@ -27,7 +27,7 @@ public class 회의실배정 {
 		});
 		int cnt = 1;
 		int i = 0;
-		for (int j = i+1; j < room.length; j++) {
+		for (int j = i+1; j < room.length; j++) { 
 			if (room[i][1] <= room[j][0]) {
 				cnt++;
 				i=j;
