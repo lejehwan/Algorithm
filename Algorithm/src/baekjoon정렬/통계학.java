@@ -25,7 +25,7 @@ public class 통계학 {
 		for (int i = 0; i < n; i++) {
 			int jump = 0;
 			int cnt = 1;
-			int value = arr[i];
+			int value = arr[i]; 
 			
 			for (int j = i+1; j < n; j++) {
 				if (value != arr[j]) {
