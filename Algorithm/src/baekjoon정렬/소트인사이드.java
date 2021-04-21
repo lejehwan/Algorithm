@@ -11,7 +11,7 @@ public class 소트인사이드 {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for (int i = 0; i < temp.length; i++) {
 			list.add(Integer.parseInt(temp[i]));
-		}
+		} 
 		Collections.sort(list);
 		Collections.reverse(list);
 		String answer = "";

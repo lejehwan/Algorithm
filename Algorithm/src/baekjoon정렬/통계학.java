@@ -16,7 +16,7 @@ public class 통계학 {
 			arr[i] = m;
 			sum += m;
 		}
-		Arrays.sort(arr);
+		Arrays.sort(arr); 
 		
 		boolean flag = false;
 		int max = 0;
