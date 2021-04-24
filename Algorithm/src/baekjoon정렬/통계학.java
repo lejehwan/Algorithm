@@ -14,7 +14,7 @@ public class 통계학 {
 		for (int i = 0; i < n; i++) {
 			int m = Integer.parseInt(br.readLine());
 			arr[i] = m;
-			sum += m;
+			sum += m; 
 		}
 		Arrays.sort(arr);  
 		
