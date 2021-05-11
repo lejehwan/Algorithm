@@ -10,7 +10,7 @@ public class 색종이만들기 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		paper = new int[n][n];
+		paper = new int[n][n]; 
 		for (int i = 0; i < paper.length; i++) {
 			for (int j = 0; j < paper.length; j++) {
 				paper[i][j] = sc.nextInt(); 
