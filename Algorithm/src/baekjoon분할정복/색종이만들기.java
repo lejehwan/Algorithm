@@ -13,7 +13,7 @@ public class 색종이만들기 {
 		paper = new int[n][n];
 		for (int i = 0; i < paper.length; i++) {
 			for (int j = 0; j < paper.length; j++) {
-				paper[i][j] = sc.nextInt();
+				paper[i][j] = sc.nextInt(); 
 			}
 		}
 		divide(0, 0, n);
