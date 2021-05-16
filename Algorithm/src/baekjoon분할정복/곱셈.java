@@ -16,7 +16,7 @@ public class 곱셈 {
 	static long c;
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		String[] input = br.readLine().split(" ");
 		long a = Integer.parseInt(input[0]);
