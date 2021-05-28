@@ -18,22 +18,24 @@ public class 수찾기 {
 		}
 		Arrays.sort(arr);
 		for (int i = 0; i < check.length; i++) {
-			int start = 0;
-			int mid = 0;
-			int end = arr.length - 1;
-			int flag = 0;
-			while (end - start >= 0) {
-				mid = (start + end) / 2;
+			int first = 0;
+			int last = arr.length - 1;
+			boolean temp = false;
+			while (first <= last) {
+				int mid = (first + last) / 2;
 				if (arr[mid] == check[i]) {
-					flag = 1;
+					temp = true;
+					System.out.println(1);
 					break;
-				} else if (arr[mid] < check[i]) {
-					start = mid + 1;
 				} else if (arr[mid] > check[i]) {
-					end = mid - 1;
+					last = mid - 1;
+				} else if (arr[mid] < check[i]) {
+					first = mid + 1;
 				}
 			}
-			System.out.println(flag);
+			if (!temp) {
+				System.out.println(0);
+			}
 		}
 		sc.close();
 	}
@@ -67,5 +69,3 @@ public class 수찾기 {
 //		sc.close();
 //	}
 //}
-
-
