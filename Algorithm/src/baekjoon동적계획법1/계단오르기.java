@@ -1,4 +1,4 @@
-package 동적계획법1;
+package baekjoon동적계획법1;
 
 import java.util.Scanner;
 

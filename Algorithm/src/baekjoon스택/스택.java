@@ -1,4 +1,4 @@
-package 스택;
+package baekjoon스택;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
