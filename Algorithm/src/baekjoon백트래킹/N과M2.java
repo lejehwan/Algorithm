@@ -2,6 +2,8 @@ package baekjoon백트래킹;
 
 import java.util.Scanner;
 
+// 중복 없이 오름차순의 경우
+
 // 나의 풀이 : 재귀 전의 값을 새로운 전역변수 k에 저장시킨 후 재귀 호출 후의 값을 비교하여 크거나 같을 경우만 실행 후 재귀가 끝난 후 0으로 초기화
 // 탐색 하기 전에 크기를 판별하여 전 수보다 작으면 탐색 안함
 
@@ -52,14 +54,12 @@ import java.util.Scanner;
 public class N과M2 {
 	static int n, m;
 	static int[] arr;
-	static boolean[] visited;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 		m = sc.nextInt();
 		arr = new int[m];
-		visited = new boolean[n];
 		dfs(1, 0);
 		sc.close();
 	}
