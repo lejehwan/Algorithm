@@ -6,7 +6,7 @@ public class 벌집 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int i = 0;
+		int i = 0; 
 		int j = 0;
 		while (true) {
 			int temp = 6*i;
