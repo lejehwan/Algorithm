@@ -19,7 +19,7 @@ public class 손익분기점 {
 				System.out.println(count);
 				break;
 			}  
-		}
+		} 
 		sc.close();
 	}
 }
