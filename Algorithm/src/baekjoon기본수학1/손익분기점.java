@@ -8,7 +8,7 @@ public class 손익분기점 {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		int C = sc.nextInt();
-		int count = 0;
+		int count = 0; 
 		while (true) {
 			if (B >= C) {
 				System.out.println("-1");

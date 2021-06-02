@@ -12,7 +12,7 @@ public class 벌집 {
 			int temp = 6*i;
 			if (n <= temp+1) {
 				break;
-			}else { 
+			}else {  
 				j++;
 				i += j;
 			}
