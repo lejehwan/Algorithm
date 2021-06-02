@@ -7,7 +7,7 @@ public class 벌집 {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int i = 0; 
-		int j = 0;
+		int j = 0; 
 		while (true) {
 			int temp = 6*i;
 			if (n <= temp+1) {
