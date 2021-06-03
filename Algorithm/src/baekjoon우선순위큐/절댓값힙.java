@@ -4,33 +4,27 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-// Collections.revereOrder() 사용시 시간 초과 => Comparator의 compare을 오버라이딩 하여 내림차순 정렬
-
-public class 최대힙 {
+public class 절댓값힙 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
 		PriorityQueue<Integer> pq = new PriorityQueue<Integer>(new Comparator<Integer>() {
 
 			@Override
 			public int compare(Integer o1, Integer o2) {
 				// TODO Auto-generated method stub
-				
-//				return o2.compareTo(o1);
-				
-//				return Integer.compare(o1, o2)*-1;
-				
-//				return o2-o1;
-				
-//				if (o1 > o2) {
-//					return -1;// 자리 그대로
-//				} else {
-//					return 1;// 자리 바꿈
-//				}
-				
-				return o1 > o2 ? -1 : 1;
+				int oo1 = Math.abs(o1);
+				int oo2 = Math.abs(o2);
+				if (oo1 == oo2) {
+					if (o1 > o2) {
+						return 1;// 자리 바꿈
+					} else {
+						return -1;// 자리 그대로
+					}
+				}
+				return oo1 - oo2;
 			}
 		});
+		int n = sc.nextInt();
 		for (int i = 0; i < n; i++) {
 			int m = sc.nextInt();
 			if (m == 0) {
