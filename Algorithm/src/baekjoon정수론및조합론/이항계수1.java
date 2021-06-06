@@ -18,4 +18,4 @@ public class 이항계수1 {
 		System.out.println(up/down);
 		sc.close();
 	}
-}
+} 

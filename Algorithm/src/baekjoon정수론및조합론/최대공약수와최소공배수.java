@@ -17,4 +17,4 @@ public class 최대공약수와최소공배수 {
 		System.out.println(z / x);
 		sc.close();
 	}
-}
+} 
