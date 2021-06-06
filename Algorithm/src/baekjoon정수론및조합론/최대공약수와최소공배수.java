@@ -1,4 +1,4 @@
-package baekjoonClass2;
+package baekjoon정수론및조합론;
 
 import java.util.Scanner;
 
