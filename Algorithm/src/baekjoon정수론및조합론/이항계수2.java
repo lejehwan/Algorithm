@@ -54,6 +54,7 @@ import java.util.StringTokenizer;
 //}
 
 // 동적계획법 풀이
+// 6C3 = 5C2 + 5C3
 public class 이항계수2 {
 	static int[][] dp;
 	public static final int div = 10007;
