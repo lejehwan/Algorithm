@@ -1,4 +1,4 @@
-package baekjoonClass2;
+package baekjoonClass_2_3;
 
 import java.util.Scanner;
 
