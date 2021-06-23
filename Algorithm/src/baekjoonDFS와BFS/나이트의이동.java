@@ -9,8 +9,7 @@ public class 나이트의이동 {
 	static boolean[][] visited;
 	static int[] addRow = { -2, -2, 2, 2, -1, 1, -1, 1 };
 	static int[] addCol = { 1, -1, 1, -1, 2, -2, -2, 2 };
-	static int finishX;
-	static int finishY;
+	static int finishX,finishY;
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
