@@ -1,4 +1,4 @@
-package baekjoonClass_2_3;
+package 세그먼트트리;
 
 import java.util.Scanner;
 
