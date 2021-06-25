@@ -1,4 +1,4 @@
-package 세그먼트트리;
+package baekjoon세그먼트트리;
 
 import java.util.Scanner;
 

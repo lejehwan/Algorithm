@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class 실패율구하기 {
+public class 실패율구하기 { 
 
 }
   

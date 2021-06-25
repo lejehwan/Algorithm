@@ -1,4 +1,4 @@
-package 동적계획법3;
+package baekjoon동적계획법3;
 
 import java.util.HashSet;
 import java.util.Scanner;
