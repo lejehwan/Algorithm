@@ -8,7 +8,7 @@ public class 주차4 {
 }
 
 class 주차4Solution {
-	public String solution(String[] table, String[] languages, int[] preference) {
+	public String solution(String[] table, String[] languages, int[] preference) { 
         int[][] value = new int[languages.length][table.length];
 		int[] sum = new int[table.length];
 		int key = 0;
