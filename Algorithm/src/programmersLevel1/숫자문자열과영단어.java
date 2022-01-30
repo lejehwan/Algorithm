@@ -10,7 +10,7 @@ public class 숫자문자열과영단어 {
 		String temp = "";
 //		for (int i = 0; i < ssplit.length; i++) { 
 //			try {
-//				Integer.parseInt(ssplit[i]); 
+//				Integer.parseInt(ssplit[i]);  
 //				answer += ssplit[i];d
 //			} catch (Exception e) {
 //				temp += ssplit[i];
