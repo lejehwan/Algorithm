@@ -1,6 +1,6 @@
 package programmersLevel1;
 
-public class 숫자문자열과영단어 {
+public class 숫자문자열과영단어 { 
 
 	public static void main(String[] args) {
 		String s = "123";// one4seveneight 23four5six7 2three45sixseven 123
