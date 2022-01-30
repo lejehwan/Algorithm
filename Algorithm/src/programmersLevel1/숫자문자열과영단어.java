@@ -8,7 +8,7 @@ public class 숫자문자열과영단어 {
 		String answer = "";
 		String[] ssplit = s.split("");
 		String temp = "";
-//		for (int i = 0; i < ssplit.length; i++) {
+//		for (int i = 0; i < ssplit.length; i++) { 
 //			try {
 //				Integer.parseInt(ssplit[i]);
 //				answer += ssplit[i];
