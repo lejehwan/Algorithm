@@ -1,4 +1,4 @@
-package baekjoon분류모름;
+package baekjoon문자열;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
