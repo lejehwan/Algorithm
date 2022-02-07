@@ -19,7 +19,6 @@ public class 골드바흐의추측 {
 			}
 		}
 		while ((n = Integer.parseInt(br.readLine())) != 0) {
-
 			boolean flag = false;
 			for (int i = 2; i < n + 1; i++) {
 				int temp = n - i;
