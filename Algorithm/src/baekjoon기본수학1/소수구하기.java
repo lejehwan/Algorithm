@@ -11,7 +11,7 @@ public class 소수구하기 {
 		boolean[] check = new boolean[m + 1];
 		check[0] = check[1] = true;
 		for (int i = 2; i <= Math.sqrt(m); i++) {
-			if (check[i] == false) {
+			if (!check[i]) {
 				for (int j = 2; i * j <= m; j++) {
 					check[i * j] = true;
 				}
